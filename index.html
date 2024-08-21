@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Para el amor de mi vida</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="img/hero.jpeg" alt="Holi mua">
+        </section>
+
+        <section class="message">
+            <h2>Anghi Nicol</h2>
+                <p>
+                    En primer lugar quiero rescatar tu personalidad realmente eres una chica que transmite paz hasta el alma tienes aquello que nadie tiene, tienes esa "magia" que te hace tan unica que no me deja de enamorar, te volviste mi sanctuary de JOJI sjhshjsjh aprecio mucho lo linda que eres lo amable y gentil que llegas a ser y el lado tan unico que conoci de ti, amo tanto ser tuyo amo tanto haberte escogido como la chica que amo, desde que te conoci algo dentro mio cambio fue como algo magico literal cuando empezamos a habalr dia tras dia empece a sonreir de oreja a oreja senti como mi mundo se iluminaba, me encata pertenecer en tu vida tu optimismo la energia que contagias, contigo me siento comodo y aunque pasamos miles de cosas juntos nos separamos miles de veces seguimos juntos nada ni nadie nos puede separar y daremos lo mejor de nosotros mañana tarde y noche se que suena estupido pero te amo hasta las estrellas, te amare hasta que la luz del sol deje de iluminar muaaa te amo con todo mi ser enserio pequeña te amo mas de lo que puedes imagfinar, quiero valorar cada detalle cada gesto y cada palabra que me daras quiero ser el principe que siempre soñaste, no dejare que solo se queden en quiero lo demostrare con acciones porque quiero que nunca mas seas espectadora, tienes un lugar especial en mi vida y si todo el mundo se pone en nuestra contra yo me pondre en contra del mundo para defender el sentimiento que tengo por ti, muaaa te amo con todo mi corazon nunca lo olvides te voy amando a pasos agigantados te amo te amo
+                </p>
+        </section>
+
+        <section class="playlist">
+            <h2>Con mucho cariño canciones que me hacen recordar a voce (presiona las imagenes) JKSSKJ</h2>
+            <div class="Musica1">
+                <div class="row">
+                    <a href="https://youtu.be/NaQD8lIsTpA?si=QzvrIT6CIgmSw-Yv" target="_blank">
+                        <img src="img/Kirby.jpeg">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="https://youtu.be/XemOMDh7pAk?si=QsiEpSlGDps1AHdq" target="_blank">
+                        <img src="img/muak.jpeg">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="https://youtu.be/1qmp6VBWGVI?si=eMRIW3kAIKfUsTi1" target="_blank">
+                        <img src="img/S-L.jpeg">
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="Juego">
+            <div class="secret-message">
+                <input type="password" placeholder="Ingresa el código secreto">
+                <button onclick="revealMessage()">Revelar mensaje</button>
+                <p id="secret"></p>
+            </div>
+            
+            <script>
+                function revealMessage() {
+                    const input = document.querySelector('.secret-message input').value;
+                    const secret = document.getElementById("secret");
+                    const password = "19/08/2024";  // Aquí defines la contraseña
+                    const message = "Esa fecha es la de ayer lo ponga de contraseña porque despues de tiempo recibo un mensaje asi tuyo y guardare ese momento como el dia en el que recibi un poco del amor de la chica que mas amo en este mundo JKSKSKS Y PUES NADA solo decirte que te amo muchisimo que te amodoro mi bebé";  // Aquí defines el mensaje que quieres revelar
+        
+                    if (input === password) {
+                    secret.textContent = message;
+                    secret.style.color = "#ff69b4";
+                    secret.style.fontFamily = "'Dancing Script', cursive";
+                    } else {
+                    secret.textContent = "Código incorrecto.";
+                    secret.style.color = "red";
+                        }
+                    }
+                </script>
+        </section>
+    </main>
+</body>
+</html>

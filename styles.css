@@ -1,0 +1,113 @@
+body {
+    background-color: #ffe6f0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffcccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Cursive', sans-serif;
+    color: #ff6680;
+    font-size: 36px;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 15px;
+}
+.message {
+    background-color: #ffe4e1;   /* Fondo rosado claro */
+}
+.message p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #ff69b4;              /* Color rosado fuerte para el texto */
+    font-family: 'Cursive', sans-serif; /* Fuente romántica */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+    margin: 10px 0;              /* Espacio vertical entre los párrafos */
+}
+
+.playlist {
+    max-width: 800px;           /* Establece un ancho máximo para la sección */
+    margin: 0 auto;             /* Centra la sección en la página */
+    padding: 20px;              /* Añade espacio alrededor del contenido */
+    background-color: #ffe4e1;  /* Fondo rosado claro */
+    border-radius: 15px;        /* Bordes redondeados para un efecto suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor */
+}
+
+.playlist h2 {
+    color: #ff69b4;             /* Color rosado fuerte para el título */
+    text-align: center;         /* Centra el título */
+    font-family: 'Cursive', sans-serif; /* Fuente romántica */
+    margin-bottom: 20px;
+}
+
+.Musica1 {
+    display: flex;              /* Activa flexbox para el contenedor de las imágenes */
+    gap: 20px;                  /* Espacio entre las imágenes */
+    justify-content: center;    /* Centra las imágenes dentro del contenedor */
+}
+
+.Musica1 .row {
+    flex: 1;                    /* Hace que cada fila ocupe el mismo espacio */
+    text-align: center;         /* Centra el contenido dentro de cada fila */
+    background-color: #ffb6c1;  /* Fondo rosado suave para cada imagen */
+    border-radius: 10px;        /* Bordes redondeados para las imágenes */
+    padding: 10px;              /* Espacio alrededor de cada imagen */
+    transition: transform 0.3s ease; /* Transición suave al hacer hover */
+}
+
+.Musica1 .row:hover {
+    transform: scale(1.05);     /* Aumenta el tamaño un poco al pasar el mouse */
+}
+
+.Musica1 img {
+    width: 100%;                /* Las imágenes ocuparán todo el ancho disponible en cada .row */
+    height: auto;               /* Mantiene la proporción de las imágenes */
+    display: block;             /* Evita espacios en blanco debajo de las imágenes */
+    border-radius: 8px;         /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+}
+.Juego {
+    background-color: #ffb6c1; 
+}
+.secret-message {
+    background-color: #ffb6c1; 
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.secret-message input, .secret-message button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+}
